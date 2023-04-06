@@ -1,0 +1,606 @@
+/* Start of Général */
+* {
+    box-sizing: border-box;
+}
+
+* {
+   font-family: 'Raleway Regular', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+text-decoration: none;
+color: #000;
+}
+h1 {
+    font-family: 'Raleway SemiBold',sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+}
+h2 {
+    font-family: 'raleway SemiBold ', sans-serif;
+    font-size: 1.5em;
+}
+h3 {
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 0.90em;
+}
+p  {
+    font-family: 'Raleway Thin 100', sans-serif;
+}
+#bloc_page {
+    width: 95%;
+    margin: auto;
+}
+.bold_price {
+    font-weight: bold;
+}
+/* End of Général */
+
+/* start of header */ 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    max-width: 180px;
+    height: 80px;
+    max-height: 80px;
+    margin: 0;
+}
+#logo>img {
+    width: 200px;
+    height: 100px;
+}
+
+nav>ul {
+    display: flex;
+    width: 280px;
+    margin: auto;
+}
+.menu {
+    color: #000;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin:15px;
+}
+.menu:hover {
+    padding-top: 32px;
+    color: #0065fc;
+    border-top: 2px solid #0065FC;
+
+}
+/* end of header */ 
+
+/* start of section "trouver votre heb" */ 
+/* barre de recherche */
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+#ico_position_background {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px 0 0 15px;
+}
+#barre_recherche{
+    width: 205px;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    padding-left: 1%;
+    font-size: 16px;
+    font-weight: bold;
+}
+#barre_recherche::placeholder {
+    color: black;
+}
+#bouton_recherche{
+    width: 120px;
+    height: 50px;
+    border: none;
+    font-family: 'raleway', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    background-color: #0065fc;
+    border-radius: 0 15px 15px 0;
+}
+#bouton_loupe {
+    display: none;
+}
+/* filtres */
+#filtres {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+#filtres>h2 {
+    font-size: 1.5em;
+    margin-right: 2%;
+    font-family: 'Raleway Semi Bold', sans-serif;
+    font-weight:normal;
+}
+#filtres a:hover {
+    background-color: #deebff;
+}
+#economie {
+    width: 200px;
+    max-width: 200px;
+    height: 60px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+    border: 2px solid #d9d9d9;
+    border-left-color: #deebff;
+    padding: 5px 25px 5px 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+.circle {
+    width: 55px;
+    height: 55px;
+    background-color: #deebff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#familial {
+    width: 160px;
+    max-width: 160px;
+    height: 60px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+    border: 2px solid #d9d9d9;
+    border-left-color: #deebff;
+    padding: 5px 25px 5px 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+#romantique {
+    width: 220px;
+    max-width: 220px;
+    height: 60px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+    border: 2px solid #d9d9d9;
+    border-left-color: #deebff;
+    padding: 5px 25px 5px 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+#animaux {
+    width: 270px;
+    max-width: 270px;
+    height: 60px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+    border: 2px solid #d9d9d9;
+    border-left-color: #deebff;
+    padding: 5px 25px 5px 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+.ico_circle {
+    color: blue;
+    font-size: 1.2em;
+}
+#filtres p {
+    font-weight: bold;
+    margin-left: 7%;
+}
+/* information logement */
+#information_logement {
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#border_grey {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+/* end of div id filtres */ 
+
+/* start of main */ 
+#main_booki {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+/* Les plus populaires */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 780px;
+    background-color: #f2f2f2;
+    border-radius: 40px 40px 40px 40px;
+}
+#pop_title {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+#pop_title>i {
+    font-size: large;
+}
+.pop_contents {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+}
+.pop_contents>a {
+    display: flex;
+    width: 90%;
+    height: 165px;
+    margin: auto;
+    background-color:#FFF;
+    align-items: center;
+    border-radius: 15px;
+}
+.pop_contents>a>img {
+    width: 35%;
+    height: 155px;
+    margin: 7px 7px 7px 7px;
+    object-fit: cover;
+    border-radius: 10px 0px 0 10px;
+
+}
+.description p {
+    height: 60px;
+    margin-bottom: 0;
+}
+.ico_stars_blue {
+    color: blue;
+}
+.ico_stars_grey {
+    color: grey;
+}
+/* Hébergements à Marseille */
+#heb_marseille {
+    background-color: #f2f2f2;
+    width: 60%;
+    height: 780px;
+    border-radius: 40px 40px 40px 40px;
+}
+#heb_marseille>h2 {
+    margin:50px 0 20px 60px;
+}
+#heb_marseille>h4 {
+    margin: 2% 7%;
+}
+.heb_marseille_contents {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heb_marseille_contents>a{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 27%;
+    height: 250px;
+    border-radius: 20px;
+}
+.heb_marseille_contents>a>img {
+    display: block;
+    width: 95%;
+    height: 135px;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 2%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+.contents_descript {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.contents_descript>h3 {
+    margin-top: 0%;
+}
+.contents_descript>p {
+    margin-top: 0%;
+}
+/* end of main */ 
+
+/* start of article id "act_marseille" */
+article {
+    margin-top: 2%;
+}
+article h2 {
+    margin-left: 7%;
+}
+#act_marseille_contents {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+#act_marseille_contents h3 {
+  margin-left: 5%;
+}
+.column_contents_unique {
+    width: 22%;
+    max-width: 22%;
+    max-height: 520px;
+    height: 520px;
+    box-shadow: 0px 5px 20px #c7c8ca;
+    border-radius: 15px 15px 15px 15px;
+}
+.column_contents_double {
+    width: 22%;
+    max-width: 22%;
+    max-height: 520px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column_contents_double>a {
+    box-shadow: 0px 5px 20px #c7c8ca;
+    border-radius: 15px 15px 15px 15px;
+}
+.img_large_1 {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.img_large_2 {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    filter: brightness(1.2);
+}
+.img_medium {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.img_small {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+/* end of section */
+
+/* start of footer */
+footer {
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 2%;
+}
+footer>ul {
+    margin-right: 18%;
+}
+.titre_colonne {
+    font-weight: bold;
+    font-family: 'Raleway Thin 100', sans-serif;
+    font-size: 1.1em;
+    color: #000;
+}
+footer li {
+    font-family: 'Raleway Thin 100', sans-serif;
+    font-weight:lighter;
+    margin-bottom: 8%;
+    color: grey;
+}
+/* end of footer */
+
+    /* Start of Media Queries*/ 
+
+@media screen and (max-width: 992px) {
+    /* Général */ 
+    #bloc_page {
+        width:90%;
+        margin: auto;
+    }
+    /* Media Queries of Header */
+    header {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    #logo {
+        align-items: center;
+        justify-content: center;
+    }
+    header nav {
+        width: 100%;
+    }
+    header>nav>ul {
+        width: 100%;
+        height: 50px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>ul>li {
+        margin: 0;
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
+    .menu {
+        display: block;
+        width: 100%;
+    }
+    .menu:hover {
+        padding-bottom: 32px;
+        color: #0065fc;
+        border-bottom: 2px solid #0065FC;
+        border-top: 0px;
+    }
+    #bouton_loupe {
+        display:block;
+        width: 80px;
+        height: 50px;
+        border: none;
+        background-color: #0065fc;
+        border-radius: 0 15px 15px 0;
+        color: #FFF;
+    }
+    #bouton_recherche{
+        display: none;
+    }
+    #trouver_votre_heb {
+        margin-top: 3%;
+    }
+    #filtres {
+        flex-wrap: wrap;
+
+    }
+    /* Media Queries of Main */ 
+    #main_booki {
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    aside {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    #pop_title {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #pop_title h2 {
+        margin-left: 7%;
+    }
+    #pop_title i {
+        color: blue;
+        margin-right: 7%;
+    }
+    .pop_contents>a {
+        width: 90%;
+    }
+    #heb_marseille {
+        width: 100%;
+        margin-top: 3%;
+        height: auto;
+    }
+    #heb_marseille>h2 {
+        margin: 30px 0 50px 60px;
+    }
+    .heb_marseille_contents {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+    #heb_marseille>h4 {
+        margin-bottom: 5%;
+    }
+    /* Media Queries of article */ 
+    #act_marseille_contents {
+        flex-direction: column;
+        justify-content: flex-start;   
+        width: 100%;
+        margin: auto;
+        height: 2080px;
+    }
+    .column_contents_unique {
+        width: 100%;
+        max-width: 100%;
+        max-height: 300px;
+        height: 300px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .column_contents_unique img {
+        width: 100%;
+        height: 250px;
+    }
+    .column_contents_double {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 5%;
+        height:600px;
+        max-height: 600px;
+    }
+    .column_contents_double .img_medium {
+        height: 250px;
+    }
+    .column_contents_double .img_small {
+        height: 250px;
+    }
+    .column_contents_double a:first-child {
+        margin-bottom: 5%;
+    }
+    /* Media Queries of footer */ 
+    
+    footer {
+        flex-direction: column;
+    }
+    footer li {
+        margin: 3%;
+    }
+}
+@media screen and (max-width: 768px){
+
+    /* Media Queries of Hébergements à Marseille */ 
+    #heb_marseille {
+        background-color: #FFF;
+    }
+    #heb_marseille>h2 {
+        width: 100%;
+        margin: 15px 0 25px 0;
+        text-align: center;
+    }
+    .heb_marseille_contents {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .heb_marseille_contents>a {
+        width: 100%;
+        margin-bottom: 3%;
+        box-shadow: 0px 5px 20px #c7c8ca;
+    }
+    .heb_marseille_contents>a>img {
+        width: 98%;
+        border-radius: 10px 10px 0 0;
+    }
+    #act_marseille>h2 {
+        width: 100%;
+        margin: 15px 0 25px 0;
+        text-align: center;
+    }
+}
+    /* end of Media Queries */
+

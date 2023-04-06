@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang=fr>
+    
+  <head>
+    <!-- Meta Charset -->    
+    <meta charset="utf-8">
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="tsang-ricky-2-css-062022/styles.css">
+    <!-- Normalize.css -->
+    <link rel="stylesheet" type="text/css" href="tsang-ricky-2-css-062022/normalize.css">
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/3c6ca3e1b1.js" crossorigin="anonymous"></script>
+    <!-- Police du site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+      <title>Booki</title>    
+  </head>
+    
+  <body>
+    <div id="bloc_page">
+        <header>
+          <figure id="logo">
+            <img src="tsang-ricky-2-images-062022/logo/Booki@3x.png" alt="logo-booki">
+          </figure>
+      
+          <nav>
+            <ul>
+              <li>
+                <a class="menu" href="#main_booki">Hébergements</a>
+              </li>
+              <li>
+                <a class="menu" href="#act_marseille">Activités</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+          
+        <section id="trouver_votre_heb">
+          <div id="recherche_hebergement">
+              <h1>Trouver votre hébergement pour des vacances de rêve </h1>
+              <p>En plein centre-ville ou en pleine nature</p>
+              <form>
+                <div id="ico_position_background">
+                  <i class="fa-solid fa-location-dot ico_position"></i>
+                </div>
+                <input id="barre_recherche" type="text" placeholder="Marseille, France">
+                <input id="bouton_recherche" type="button" value="Rerchercher">
+                  <button id="bouton_loupe">
+                    <i class="fa-solid fa-magnifying-glass ico_loupe"></i>
+                </button>
+              </form>
+          </div>
+          
+          <div id="filtres">
+             <h2>Filtres</h2>
+             <a href="#" id="economie">
+              <div class="circle">
+                <i class="fa-solid fa-child-reaching ico_circle"></i>
+              </div>
+              <p>Économique</p>
+             </a>
+
+             <a href="#" id="familial">
+              <div class="circle">
+                <i class="fa-solid fa-child-reaching ico_circle"></i>
+              </div>
+              <p>Familial</p>
+            </a>
+
+            <a href="#" id="romantique">
+              <div class="circle">
+                <i class="fa-solid fa-heart ico_circle"></i>
+              </div>
+              <p>Romantique</p>
+            </a>
+
+            <a href="#" id="animaux">
+              <div class="circle">
+                <i class="fas fa-dog ico_circle"></i>
+              </div>
+              <p>Animaux autorisés</p>
+            </a>
+          </div>
+
+          <div id="information_logement">
+              <div id="border_grey">
+                <i class="fa-solid fa-info"></i> 
+              </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
+        </section>
+        
+        <main id="main_booki"> <!-- Section "hébergements à Marseille" et "Les plus populaires" -->
+          <aside> <!-- Section "Les plus populaires" -->
+            <div id="pop_title">
+              <h2>Les plus populaires</h2>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="pop_contents">
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/hotel-le-soleil-du-matin.jpg" alt="hotel-le-soleil-du-matin.jpg">
+                <div class="description">
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à Partir de 128<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+            
+            <div class="pop_contents">
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/au-coeur-de-leau-chambres-dhotes.jpg" alt="au-coeur-de-leau-chambres-dhotes.jpg">
+                <div class="description">
+                  <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                  <p>Nuit à Partir de 71<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star ico_stars_grey"></i>
+                  </div>
+                </div>    
+              </a>
+            </div>
+
+            <div class="pop_contents">
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/hotel-tout-bleu-et-blanc.jpg" alt="hotel-tout-bleu-et-blanc.jpg">
+                <div class="description">
+                  <h3>Hôtel Tout bleu et Blanc</h3>
+                  <p>Nuit à Partir de 68<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star ico_stars_grey"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </aside>
+
+          <section id="heb_marseille">
+            <h2>Hébergements à Marseille</h2>
+
+            <div class="heb_marseille_contents">
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/auberge-la-cannebiere.jpg" alt="auberge-la-cannebiere">
+                <div class="contents_descript">
+                  <h3>Auberge la Cannebière</h3>
+                  <p>Nuit à Partir de <span class="bold_price">25€</span></p>
+                  <div class="ico_stars_blue" >
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star ico_stars_grey"></i>
+                  </div>
+                </div>
+                
+              </a>
+
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/hotel-du-port.jpg" alt="hotel-du-port">
+                <div class="contents_descript">
+                  <h3>Hôtel du port</h3>
+                  <p>Nuit à Partir de 52<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/hotel-les-mouettes.jpg" alt="hotel-les-mouettes">
+                <div class="contents_descript">
+                  <h3>Hôtel Les mouettes</h3>
+                  <p>Nuit à Partir de 76<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star ico_stars_grey"></i>
+                    </div>
+                </div>
+               
+              </a>
+            </div>
+
+            <div class="heb_marseille_contents">
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/hotel-de-la-mer.jpg" alt="hotel-de-la-mer">
+                <div class="contents_descript">
+                  <h3>Hôtel de la mer</h3>
+                  <p>Nuit à Partir de 46<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star ico_stars_grey"></i>
+                    <i class="fa-solid fa-star ico_stars_grey"></i>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/auberge-le-panier.jpg" alt="auberge-le-panier">
+                <div class="contents_descript">
+                  <h3>Auberge le Panier</h3>
+                  <p>Nuit à Partir de <span class="bold_price">23€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star ico_stars_grey"></i>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <img src="tsang-ricky-2-images-062022/hebergements/hotel-chez-amina.jpg" alt="hotel-chez-amina">
+                <div class="contents_descript">
+                  <h3>Hôtel chez Amina</h3>
+                  <p>Nuit à Partir de 96<span class="bold_price">€</span></p>
+                  <div class="ico_stars_blue">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <h4>
+              <a href="#">Afficher plus</a>
+            </h4>
+          </section>
+      </main>
+          
+      <article id="act_marseille"> <!--Section Activités à Marseille-->
+        <h2>Activités à Marseille</h2>
+        <div id="act_marseille_contents">
+          <div class="column_contents_unique">
+            <a href="#">
+              <img src="tsang-ricky-2-images-062022/activites/vieux-port.jpg" alt="vieux-port" class="img_large_1">
+              <h3>Vieux Port</h3>
+            </a>
+          </div>
+          <div class="column_contents_double">
+            <a href="#">
+              <img src="tsang-ricky-2-images-062022/activites/fort-de-pomegues.jpg" alt="fort-de-pomegues" class="img_medium">
+              <h3>Fort de Pomègues</h3>
+            </a>
+
+            <a href="#">
+              <img src="tsang-ricky-2-images-062022/activites/iles-du-frioul.jpg" alt="iles-du-Frioul" class="img_small">
+              <h3>Îles du Frioul</h3>
+            </a>
+          </div>
+          
+          <div class="column_contents_unique">
+            <a href="#">
+              <img src="tsang-ricky-2-images-062022/activites/parc-national-des-calanques.jpg" alt="parc parc-national-des-calanques" class="img_large_2">
+              <h3>Parc National des Calanques</h3>
+            </a>
+            </div>
+           
+          <div class="column_contents_double">
+            <a href="#">
+              <img src="tsang-ricky-2-images-062022/activites/notre-dame-de-la-garde.jpg" alt="notre-dame-de-la-garde" class="img_small">
+              <h3>Notre-Dame-de-la-Garde</h3>
+            </a>
+            <a href="#">
+              <img src="tsang-ricky-2-images-062022/activites/parc-longchamp.jpg" alt="parc-longchamp" class="img_medium">
+              <h3>Parc Longchamp</h3>
+            </a>
+          </div>
+        </div>
+      </article>  
+      
+      <footer>
+
+            <ul>
+              <li class="titre_colonne">A propos</li>
+              <li>
+                <a href="#">Fonctionnement du site</a>
+              </li>
+              <li>
+                <a href="#">Conditions générales de vente</a>
+              </li>
+              <li>
+                <a href="#">Données et confidentialité</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="titre_colonne">Nos Hébergements</li>
+              <li>
+                <a href="#">Charte qualité</a>
+              </li>
+              <li>
+                <a href="#">Soumettre votre hôtel</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="titre_colonne">Assistance</li>
+              <li>
+                <a href="#">Centre d'aide</a>
+              </li>
+              <li>
+                <a href="#">Nous contacter</a>
+              </li>
+            </ul>
+        </footer>        
+
+    </div> 
+  </body>   
+</html>
